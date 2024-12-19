@@ -65,7 +65,7 @@ function showWordAndOptions() {
     wordElement.innerText =
         questionType === "englishToRussian"
             ? `Переведи на русский: ${words[currentWordIndex].english}`
-            : `Перевели на английский: ${words[currentWordIndex].russian}`;
+            : `Переведи на английский: ${words[currentWordIndex].russian}`;
 
     // Generar botones de opciones
     const optionsForm = document.getElementById('optionsForm');
