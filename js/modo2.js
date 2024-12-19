@@ -42,7 +42,7 @@ function updateStatistics() {
 
 function showWordAndOptions() {
     const wordElement = document.getElementById('word');
-    wordElement.innerText = `Traduce: ${words[currentWordIndex].english}`;
+    wordElement.innerText = `Переведи: ${words[currentWordIndex].english}`;
 
     const correctTranslation = words[currentWordIndex].russian;
 
