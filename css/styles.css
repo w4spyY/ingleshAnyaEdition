@@ -1,0 +1,73 @@
+body {
+    background-image: url('../img/background.jpg'); /* Cambia 'ruta-de-tu-imagen.jpg' por la ruta real de tu imagen */
+    background-size: cover; /* La imagen cubrirá toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    height: 100vh; /* Altura del viewport */
+    margin: 0; /* Eliminar márgenes */
+    font-family: Arial, sans-serif; /* Asegurar una tipografía agradable */
+    color: #fff; /* Texto blanco para contrastar con el fondo */
+}
+
+h1 {
+    color: #343a40;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    border: 2px solid black;
+}
+
+/* Alinear el texto y los círculos */
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Estilo para los círculos */
+.form-check-input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Centrar el texto */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p.lead {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Resultados */
+#resultMessage {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Botones */
+button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+html, body {
+    height: 100%; /* Asegura que la altura esté limitada al viewport */
+    overflow: hidden; /* Elimina el scroll innecesario */
+}
